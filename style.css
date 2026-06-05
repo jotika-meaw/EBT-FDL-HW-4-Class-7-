@@ -98,13 +98,13 @@ width:1320px;
 margin:auto;
 display:flex;
 flex-wrap: wrap;
-justify-content:center;
 gap:10px;
 }
 .product{
 position:relative;
 background-color: white;
 width: 250px;
+height:380px;
 border-radius: 5px;
 overflow:hidden;
 }
@@ -115,9 +115,8 @@ overflow:hidden;
     background-color:blueviolet;
     color: white;
     font-size: 12px;
-    /*font-weight: 600;*/
     text-decoration: none;
-    padding: 3px 8px;
+    padding: 5px 10px;
     border-radius: 0 20px 20px 0;
 
 }
@@ -126,30 +125,36 @@ overflow:hidden;
 }
 
 .productCnt{
-    padding:15px;
+    padding:30px;
 }
 
 .productCnt img{
 width: 100%;
-display:block;
+height:200px;
+
 
 }
 
 .productCnt a{
     display:block;
-    margin-top:10px;
+    height:100px;
+    font-size:16px;
+    line-height:1.4;
     text-decoration: none;
     color:black;
+    margin-top:10px;
 
 }
 .productCnt p{
+    margin-top:auto;
     color:orangered;
+    
 
 }
 .productCnt del{
     color:black;
     font-size: 13px;
-    margin-left:5px;
+    margin-left:10px; 
 }
 
 .productCnt a:hover{
