@@ -17,6 +17,15 @@ body{
     font-weight: 400;
 }
 
+table tr td a{
+    text-decoration:none;
+    color:black;
+}
+
+table tr td a:hover{
+    color:#ef4a23;
+}
+
  .group {
     width: 1320px;
     margin: auto ;
